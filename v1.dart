@@ -5,8 +5,7 @@ void main() {
 }
 
 
-
-binarySearch(List<dynamic> array, var target) {
+binarySearch(List<int> array, int target) {
   int left = 0;
   int right = array.length - 1;
 
