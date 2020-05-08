@@ -12,7 +12,7 @@ binarySearch(List<dynamic> array, var target) {
 
   int middlePosition = (left + right) ~/ 2;
 
-  while (true) {
+  while (array.length > middlePosition) {
     var middleElement = array[middlePosition];
 
     if (middleElement == target) return middlePosition;
