@@ -36,7 +36,7 @@ binarySearch(List<dynamic> array, dynamic target) {
 
     if (compare == 0) return middlePosition;
 
-    if (compare > 0)
+    if (compare < 0)
       left = middlePosition + 1;
     else
       right = middlePosition - 1;
